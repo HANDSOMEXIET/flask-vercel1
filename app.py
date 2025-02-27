@@ -7,6 +7,7 @@ from openai import OpenAI
 
 app = Flask(__name__)
 
+
 # 設定 LINE Channel Access Token 和 Secret
 LINE_CHANNEL_ACCESS_TOKEN = os.getenv("CHANNEL_ACCESS_TOKEN")
 LINE_CHANNEL_SECRET = os.getenv("CHANNEL_SECRET")
